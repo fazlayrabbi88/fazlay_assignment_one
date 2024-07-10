@@ -1,0 +1,30 @@
+body {
+    font-family: Azeret Mono;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+    border-bottom: 2px solid #000;
+}
+
+header p {
+    margin: 0;
+    font-size: 24px;
+    color: #000;
+}
+
+header resume-btn {
+    background-color: #fff;
+    border: 1px solid rgb(13, 19, 33);
+    padding: 17px 24px 17px 24px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 8px;
+}
