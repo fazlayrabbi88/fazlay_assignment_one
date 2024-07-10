@@ -248,7 +248,7 @@ header .resume-btn {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-/* New Section: My Current Target */
+/* forth section */
 .my-current-target {
     background-color: #fff;
     position: absolute;
@@ -342,4 +342,130 @@ header .resume-btn {
     font-weight: 700;
     text-align: left;
     text-decoration-line: underline;
+}
+
+.html-card {
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+}
+
+.css-card {
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+}
+
+.js-card {
+    border-radius: 16px;
+    background: rgba(255, 223, 0, 0.05);
+}
+
+/* fifth section */
+.support {
+    background: url(../images/handshake.jpg) no-repeat center center;
+    background-size: cover;
+    position: absolute;
+    height: 150px;
+    left: 220px;
+    right: 220px;
+    top: 3350px;
+    bottom: 180px;
+    padding: 64px 48px 64px 48px;
+    border-radius: 16px;
+    background: rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2), url(Email);
+}
+
+.support h2 {
+    position: static;
+    width: 292px;
+    height: 36px;
+    padding: 0px;
+    margin: 16px auto;
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: center;
+
+}
+
+.support p {
+    position: static;
+    width: 606px;
+    height: 52px;
+    padding: 0px;
+    margin: 16px auto;
+    opacity: 0.7;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.support-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.support-form input[type="text"] {
+    padding: 15px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 500px;
+}
+
+.support-form button[type="submit"] {
+    background-color: #fff;
+    color: #000;
+    border: none;
+    padding: 15px 30px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* Footer section */
+.footer {
+    background-color: #f4f4f4;
+    position: absolute;
+    width: 1518px;
+    height: 100px;
+    left: 0;
+    top: 3700px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.footer-content p {
+    margin: 0;
+    font-size: 16px;
+    color: #333;
+}
+
+.social-icons {
+    display: flex;
+    gap: 15px;
+}
+
+.social-icons a {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+}
+
+.social-icons img {
+    width: 100%;
+    height: auto;
 }
